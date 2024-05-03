@@ -1,0 +1,39 @@
+
+.conteiner {
+    background-color: black;
+    height: 800px;
+    
+}
+
+.hreff {
+    margin-top: -80px;
+}
+
+.titleContact {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline  white;
+}
+
+.titleContact h1 {
+    color: white;
+    margin-top: 50px;
+    font-family: "Keania One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    padding: 70px;
+}
+
+.cardGroup {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.cardGroup Card.Title {
+    font-size: 55px;
+}

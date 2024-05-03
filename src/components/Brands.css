@@ -1,0 +1,23 @@
+
+.border {
+    border-bottom: 1px solid black;
+    height: 150px;
+    max-width: 80%;
+    padding: 0;
+    margin: 15px auto 0 auto;
+}
+
+.marcas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+    padding: 0 30rem;
+    height: 15vh;
+}
+
+.marcas a:hover {
+    opacity: 40%;
+}
+

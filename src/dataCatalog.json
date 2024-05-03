@@ -1,0 +1,122 @@
+
+[
+    {
+        "nombre" : "Guantes Tácticos",
+        "img" : "https://imgs.search.brave.com/Qnf0lyELg1z_3UgqCan7yQpE98P15qpyLbAy7tnZCIk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzgxQTZJVlJ4R29M/LmpwZw",
+        "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "precio" : 1234,
+        "categorias" : "1"
+    },
+    {
+        "nombre": "Pechera Cuadrada",
+        "img": "https://imgs.search.brave.com/BDoe_USCb8nO4VXlHLRZPFwYbNH7YEObFxFCvPc6_fA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/OTFHRDFXSXFQZUwu/anBn",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "precio": 6123,
+        "categorias" : "1"
+    },
+    {
+        "nombre": "Borcegos",
+        "img": "https://imgs.search.brave.com/C8Cmy_-3Uo0LyaAHGAPesSPSIcN8qgCSPOJKXWjznaQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9OUV9OUF82/MjUxMzYtTUxBNzI2/NzEyOTAxNTVfMTEy/MDIzLU8ud2VicA",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "precio": 1212,
+        "categorias" : "1"
+    },
+    {
+        "nombre": "Cinturón",
+        "img": "https://imgs.search.brave.com/0d4w1hdZ5t5qOkWHfRnE6sYZbCrvV8ikqi0T2zHV9lw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTEtYWhmN3FLWkwu/anBn",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "precio": 3434,
+        "categorias" : "1"
+    },
+    {
+        "nombre": "Riñonera Táctica",
+        "img": "https://imgs.search.brave.com/EH3txfSdutpA2Nu7_LcWs2deBsE62ztD0wnDfBgYltM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzFxdzVaaUkzQkwu/anBn",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "precio": 98984,
+        "categorias" : "1"
+    },
+    {
+        "nombre": "Sudadera Táctica",
+        "img": "https://imgs.search.brave.com/t0w_ZMWoH0cFcN5jEd64shuxdgMfqEkMWwtLv1nUEtY/rs:fit:860:0:0/g:ce/aHR0cDovL2h0dHAy/Lm1sc3RhdGljLmNv/bS9EXzYxMzM4MC1N/TEE0NzA3NDkwNDgy/M18wODIwMjEtWC5q/cGc",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "precio": 6565,
+        "categorias" : "1"
+    },
+    {
+        "nombre": "Muslera tactica",
+        "img": "https://imgs.search.brave.com/U99jIaU5e7aNwrrWZ3qUS51c-BQEk1o-APz__gDQ2Bc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9OUV9OUF85/NTY0NjEtTUxBNjk5/MDk4Nzg3NzlfMDYy/MDIzLVYud2VicA",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "precio": 2211,
+        "categorias" : "1"
+    },
+    {
+        "nombre": "Pechera Cruzada",
+        "img": "https://imgs.search.brave.com/N7DuetKTeDMPKVfIWK1D1_12fcXRrd6NhGDaQ-zK4nk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9OUV9OUF83/ODgzMDEtTUxNNDY2/ODE2MjUyODVfMDcy/MDIxLVcud2VicA",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "precio": 6565,
+        "categorias" : "1"
+    },
+    {
+        "nombre": "Sombrero Australiano",
+        "img": "https://imgs.search.brave.com/ubUcqmSS950f1Kru01Q2i4qQPvDwel727Upzhaa2d2Q/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9OUV9OUF85/NTA1MDktTUxBNDc1/ODMyNDczNzdfMDky/MDIxLVcud2VicA",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "precio": 5454,
+        "categorias" : "2"
+    },
+    {
+        "nombre": "Riñoneras",
+        "img": "https://imgs.search.brave.com/-Le9D9yt7iwtoFDGHXlOMvhXlKf2TzwPvYJ5mhtWsIk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9OUV9OUF84/OTQyNTctTUxBNzA0/NjExNDgyNTdfMDcy/MDIzLVcud2VicA",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "precio": 1231,
+        "categorias" : "2"
+    },
+    {
+        "nombre": "Bolsos",
+        "img": "https://imgs.search.brave.com/rOaK-OJOfDT19a0Qyd4WbFJy3x55SPAiHRi64dUWM7c/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzgxNU1QbnJVTy1M/LmpwZw",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "precio": 4433,
+        "categorias" : "2"
+    },
+    {
+        "nombre": "Bolsos Materos",
+        "img": "https://imgs.search.brave.com/N2dczRtCluyjOM-dj9BMruVH5z2YxlCeHnxgiUfpBOI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jb2xp/c2V1bS52dGV4aW1n/LmNvbS5ici9hcnF1/aXZvcy9pZHMvNTQy/NjQwLTI4MC0yODAv/Qm9sc29zLUhPTUJS/RS1DQVRFUlBJTExB/Ui1Sb2RuZXktODQw/NTktMTQ3XzEuanBn/P3Y9NjM4MTQ1OTQy/MjQ2NDcwMDAw",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "precio": 3434,
+        "categorias" : "2"
+    },
+    {
+        "nombre": "Linternas",
+        "img": "https://imgs.search.brave.com/jK0fR3xUsq_54ftTjpAUXbrUE1DHkrqZb6Molugdi7w/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/dmlkYXRhY3RpY2Eu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIxLzEwLzcxQU1R/T1JORkwuX0FDX1NM/MTUwMF8tMS5qcGc",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "precio": 2112,
+        "categorias" : "2"
+    },
+    {
+        "nombre": "Termos",
+        "img": "https://imgs.search.brave.com/gMuLJnz4V8DH-R3HLaxopazBeo6D73WXq_53lzZUhow/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/bXVuZG9zZXRtYXRl/cm8uY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIyLzA5L1Rl/cm1vLVN0YW5sZXkt/MS4zLWxpdHJvcy1i/bGFuY28tZWRpY2lv/bi1lc3BlY2lhbC5q/cGc",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "precio": 3213,
+        "categorias" : "2"
+    },
+    {
+        "nombre": "Vasos Termicos",
+        "img": "https://imgs.search.brave.com/-4P_O-SN_aKGqtp8EB9ArpmQpCe35eSBiqPPzs1BWDw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/dHJpZXN0aW5hLmNv/bS5hci93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMC8wNC8wZGIz/ZTdmNy1lZjZhLTRi/OWUtOGNlYS0zNDVh/NWFmNjA0YjEtZmNh/ZTMzMmZkZjM2YzBh/ZjdlMTU4NDU2MTA4/MDIxMTctMTAyNC0x/MDI0LmpwZw",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "precio": 6565,
+        "categorias" : "2"
+    },
+    {
+        "nombre": "Airsoft (Hidrogel)",
+        "img": "https://imgs.search.brave.com/PTmScTesvd8bPtC6Pm8DWdLBpaQ_gl58pgp6yeuBeMw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3NzdGF0aWMu/Y29tL3JpZmxlLW00/YTEtaGlkcm9nZWwt/MjAyMS0xMzgtMTA5/NDMxODcwXzQwMHg0/MDAuanBn",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "precio": 1122,
+        "categorias" : "3"
+    },
+    {
+        "nombre": "Polímero Táctico",
+        "img": "https://imgs.search.brave.com/zR8YX6cVEIKS_K7Hh_fYiccTu55NXE7v2nN_rG4k6p4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9OUV9OUF84/NjAyMDktTUxBNzI5/Mzg2MTkyNDZfMTEy/MDIzLVcud2VicA",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "precio": 2345,
+        "categorias" : "3"
+    }
+]

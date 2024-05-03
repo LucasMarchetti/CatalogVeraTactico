@@ -1,0 +1,70 @@
+.header {
+    position: fixed;
+    height: 160px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    transition: 0.3s ease-in;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.938);
+}
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 2040px;
+    margin: 10px;
+    height: 85%;
+    padding: 0 1rem;
+}
+
+/* Titulo y Logo */
+
+.logoTitle {
+    display: flex;
+    align-items: center;
+}
+
+.logoTitle h1 {
+    font-family: "Keania One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+.logoTitle img {
+    height: 150px;
+}
+
+/* Acerca de Nosotros */
+
+/* ul */
+.nav-menu {
+    display: flex;
+    margin: 40px;
+}
+
+/* li */
+.nav-item {
+    padding: 1rem;
+    list-style:none;
+    padding: 10px;
+}
+
+.navbar .nav-menu a {
+    font-size: 30px;
+    color: black;
+    text-decoration: underline rgb(36, 36, 36);
+    padding: 10px;
+}
+
+.navbar .nav-item a:hover {
+    box-shadow: 1px 3px 5px 5px  rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
