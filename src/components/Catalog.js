@@ -23,14 +23,14 @@ const Catalog = () => {
             categoria2.push(current)
         } else {
             categoria3.push(current)
-        }
+        } return current
     })
 
     return (
         <div className="container">
-            <div className="catalog" >
+            <div className="catalog">
                 <div className="border3" id="about"/>
-                <div className="conteinerAboutUs" >
+                <div className="conteinerAboutUs">
                     <h1 className="titleAboutUs">
                         Acerca de Nosotros
                     </h1>
