@@ -2,49 +2,27 @@
 // Styles
 import "./Contact.css";
 
-// React-Bootstrap
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
-
 const Contact = () => {
     return (
-        <div className="conteiner">
-            <span className="hreff"  id="contact" />
-            <div className="titleContact">
-                <h1>
-                    Contacto
-                </h1>
-            </div>
-            <div className="cardGroup">
-                <CardGroup style={{display: "flex"}}>
-                    <Card style={{margin: "20px"}}>
-                        <Card.Body>
-                            <Card.Title style={{fontSize: "45px", textDecoration: "underline black"}}>Ubicación</Card.Title>
-                            <Card.Text>
-                                San Fernando del Valle de Catamarca, Catamarca, Argentina
-                            </Card.Text>
-                            <Card.Text>
-                                Calle Av. Los Glaciares 1234
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                    <Card style={{margin: "20px"}}>
-                        <Card.Body>
-                            <Card.Title style={{fontSize: "45px", textDecoration: "underline black"}}>Teléfono</Card.Title>
-                            <Card.Text>
-                                +54 3834 325262
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                    <Card style={{margin: "20px"}}>
-                        <Card.Body>
-                            <Card.Title style={{fontSize: "45px", textDecoration: "underline black"}}>Email</Card.Title>
-                            <Card.Text>
-                                veratactico@gmail.com
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </CardGroup>
+        <div className="contenedor">
+            <span id="contact" />
+            <h1 className="titleContact">
+                Contacto
+            </h1>
+            <div className="cardsContact">
+                <div className="carta">
+                    <h1>Teléfono</h1>
+                    <p>+54-3834-549875</p>
+                </div>
+                <div className="carta">
+                    <h1>Email</h1>
+                    <p>veratactico@gmail.com</p>
+                </div>
+                <div className="carta">
+                    <h1>Ubicación</h1>
+                    <p>San Fernando del Valle de Catamarca, Catamarca</p>
+                    <p>Av. Los Milagros 2345</p>
+                </div>
             </div>
         </div>
     )

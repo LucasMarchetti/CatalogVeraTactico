@@ -1,40 +1,49 @@
 
-.conteiner {
+.contenedor {
+    width: 100%;
     background-color: black;
-    height: 800px;
-    
-}
-
-.hreff {
-    margin-top: -80px;
+    padding-bottom: 10%;
 }
 
 .titleContact {
     display: flex;
     justify-content: center;
-    text-decoration: underline  white;
-}
-
-.titleContact h1 {
+    margin: 0%;
+    padding-top: 3%;
+    padding-bottom: 4%;
     color: white;
-    margin-top: 50px;
+    text-decoration: underline  white;
     font-family: "Keania One", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 70px;
-    padding: 70px;
 }
 
-.cardGroup {
+.cardsContact {
     display: flex;
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    padding: auto;
-    font-size: 30px;
-    text-decoration: none;
+    justify-content: space-around;
+    color: aliceblue;
 }
 
-.cardGroup Card.Title {
-    font-size: 55px;
+.carta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+    width: 20%;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.carta p {
+    margin: 5%;
+    font-size: 130%;
+}
+
+@media only screen and (max-width: 950px) {
+    .carta p {
+        font-size: 100%;
+    }
 }

@@ -11,20 +11,28 @@ import stan from "./images/stanley_logo.png"
 const Brands = () => {
     return (
         <div>
-            <div className="border" id="inicio" />
-            <div className="marcas" >
-                <a href="https://www.camelbak.com/">
-                    <img src={camel} alt="Img" style={{height: "120px"}}/>
-                </a>
-                <a href="https://www.caterpillar.com/en.html">
-                    <img src={cater} alt="Img" style={{height: "120px"}}/>
-                </a>
-                <a href="https://boer.ar/">
-                    <img src={boer} alt="Img" style={{height: "150px"}}/>
-                </a>
-                <a href="https://www.stanley1913.ar/">
-                    <img src={stan} alt="Img" style={{height: "120px"}}/>
-                </a>
+            <div className="border" id="inicio"/>
+            <div className="conteiner">
+                <div className="items item-1" >
+                    <a href="https://www.camelbak.com/" target="_blank" rel="noreferrer noopener">
+                        <img src={camel} alt="Img" className="camel"/>
+                    </a>
+                </div>
+                <div className="items item-3" >
+                    <a href="https://boer.ar/" target="_blank" rel="noreferrer noopener">
+                        <img src={boer} alt="Img" className="boer"/>
+                    </a>
+                </div> 
+                <div className="items item-2" >
+                    <a href="https://www.caterpillar.com/en.html" target="_blank" rel="noreferrer noopener">
+                        <img src={cater} alt="Img" className="cater"/>
+                    </a>
+                </div>
+                <div className="items item-4" >
+                    <a href="https://www.stanley1913.ar/" target="_blank" rel="noreferrer noopener">
+                        <img src={stan} alt="Img" className="stan"/>
+                    </a>    
+                </div>
             </div>
         </div>
     )

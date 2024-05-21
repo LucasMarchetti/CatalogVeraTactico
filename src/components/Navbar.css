@@ -67,4 +67,52 @@
     padding: 10px;
 }
 
+/* Media Queries */
+@media only screen and (max-width: 1405px) {
+    .logoTitle h1 {
+        font-size: 50px;
+    }
+    .logoTitle img {
+        height: 130px;
+    }
+    .navbar .nav-menu a {
+        font-size: 25px;
+    }
+}
 
+@media only screen and (max-width: 1378px) {
+    .navbar .nav-menu a {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 1227px) {
+    .navbar .nav-menu a {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 1171px) {
+    .navbar .nav-menu a {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 1133px) {
+
+    .logoTitle h1 {
+        font-size: 50px;
+    }
+    
+    .logoTitle img {
+        height: 130px;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-item a {
+        display: none;
+    }
+  }

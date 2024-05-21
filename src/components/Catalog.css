@@ -1,27 +1,28 @@
 
 .container {
     display: flex;
-    height: 4700px;
-    width: 100%;
     position: relative;
+    justify-content: center;
+    align-items: center;
     z-index: 1;
-    margin: 0;
-    padding-top: 0;
     background-image: url("./images/Background.jpg");
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.container .catalog {
-    height: 4700px;
+.catalog {
+    display: grid;
     width: 80%;
-    margin-top: 0;
-    margin-left: 10%;
+    height: 100%;
     background-color: rgb(255, 255, 255);
 }
 
 /* AboutUs */
+
+.conteinerAboutUs {
+    height: 400px;
+}
 
 .titleAboutUs {
     display: flex;
@@ -32,7 +33,6 @@
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
-    color: black;
     text-decoration: 3px underline rgb(36, 36, 36);
 }
 
@@ -40,40 +40,21 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 70px;
+    padding: 40px;
     font-family: "Keania One", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 35px;
-    color: black;
-}
-
-/* Border */
-
-.border2 {
-    border-bottom: 1px solid black;
-    height: 100px;
-    max-width: 60%;
-    margin: 40px auto 0 auto;
-}
-
-.border3 {
-    border-bottom: 1px solid rgb(255, 255, 255);
-    height: 100px;
-    max-width: 60%;
-    margin: 0px auto 0 auto;
 }
 
 /* Catalogo */
 
 .conteiner-titulo {
     display: flex;
-    height: 100px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 0%;
-    margin-top: 80px;
+    margin-top: 10%;
 }
 
 .tituloCatalogo {
@@ -99,10 +80,15 @@
     font-size: 30px;
 }
 
-.tituloCategorias {
+/*    Productos / CARDS    */
+
+.conteinerProducts {
+    height: 2500px;
+}
+
+.tituloCategorias1 {
     display: flex;
     justify-content: center;
-    margin-top: 5%;
     font-family: "Keania One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -110,50 +96,212 @@
     text-decoration: underline rgb(36, 36, 36);
 }
 
-/*    Productos    */
-
-.card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 300px;
-    width: 600px;
-    border: solid 1px grey;
-    background-color: rgba(230, 230, 230, 0.671);
-    border-radius: 10px;
-    margin-top: 40px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.479);
-
-}
-
-.card .image {
-    margin-left: 15px;
-    height: 220px;
-    width: 270px;
-    border: 1px solid grey;
-    border-radius: 15px;
-}
-
-.card .nombre {
+.tituloCategorias2 {
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    margin-top: 14%;
+    font-family: "Keania One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
     text-decoration: underline rgb(36, 36, 36);
 }
 
-.card .descripcion {
-    text-align: center;
-}
-
-.card .precio {
+.tituloCategorias3 {
     display: flex;
     justify-content: center;
-    font-size: 25px;
-    margin-top: 40px;
-    font-weight: 600;
+    margin-top: 10%;
+    font-family: "Keania One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-decoration: underline rgb(36, 36, 36);
 }
 
-.conteinerAboutUs {
-    height: 400px;
-    z-index: 3;
+.gridCards {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, minmax(250px, 400px));
+    grid-template-rows: repeat(1, 1fr);
+    gap: 3%;
+}
+
+.bodyCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 400px;
+    gap: 2em;
+    border: solid 1px rgba(128, 128, 128, 0.61);
+    background-color: rgba(230, 230, 230, 0.671);
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.479);
+}
+
+.imageCard {
+    max-height: 60%;
+    max-width: 40%;
+    border: solid 1px rgba(128, 128, 128, 0.61);
+    border-radius: 10px;
+}
+
+.infoCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+.infoCard h1 {
+    font-size: 25px;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.price {
+    padding: 5px;
+    border: solid 1px rgba(128, 128, 128, 0.61);
+    border-radius: 10px;
+    background-color: rgba(212, 212, 212, 0.925) ;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1665px) {
+    .conteinerProducts {
+        height: 2100px;
+    }
+
+    .contenidoAboutUs {
+        font-size: 30px;
+    }
+
+    .bodyCard {
+        height: 200px;
+        width: 350px;
+        gap: 1em;
+        margin-left: 5%;
+    }
+
+    .infoCard h1 {
+        font-size: 20px;
+    }
+
+    .gridCards {
+        gap: 3%;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .price {
+        padding: 5px;
+        border: solid 1px rgba(128, 128, 128, 0.61);
+        border-radius: 10px;
+        background-color: rgba(212, 212, 212, 0.925) ;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1565px)  {
+    .conteinerProducts {
+        height: 6650px;
+    }
+
+    .gridCards {
+        grid-template-columns: repeat(1, minmax(200px, 600px));
+    }
+
+    .tituloCategorias2 {
+        margin-top: 48%;
+    }
+
+    .tituloCategorias3 {
+        margin-top: 10%;
+    }
+
+    .bodyCard {
+        height: 300px;
+        width: 600px;
+        gap: 1em;
+        margin-left: 4%;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .price {
+        padding: 5px;
+        border: solid 1px rgba(128, 128, 128, 0.61);
+        border-radius: 10px;
+        background-color: rgba(212, 212, 212, 0.925) ;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .contenidoAboutUs {
+        font-size: 28px;
+    }
+    .conteinerProducts {
+        height: 6650px;
+    }
+    .tituloCategorias2 {
+        margin-top: 65%;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .conteinerAboutUs {
+        height: 10%;
+        z-index: 3;
+    }
+
+    .titleAboutUs {
+        font-size: 35px;
+    }
+
+    .contenidoAboutUs {
+        font-size: 28px;
+    }
+
+    .tituloCatalogo {
+        font-size: 40px;
+    }
+
+    .frase {
+        font-size: 25px;
+    }
+    .bodyCard {
+        margin-left: 1.5%;
+    }
+    .tituloCategorias2 {
+        margin-top: 82%;
+    }
+    .tituloCategorias3{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 880px) {
+    .bodyCard {
+        margin-left: 0.5%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contenidoAboutUs {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .contenidoAboutUs {
+        font-size: 22px;
+    }
 }
