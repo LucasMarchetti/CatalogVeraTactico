@@ -53,7 +53,7 @@ const Catalog = () => {
                             {   
                                 categoria1?.map((_, idx) => (
                                     <div key={idx} className="bodyCard" >
-                                        <img src={categoria1[idx].img} alt="image" className="imageCard" />
+                                        <img src={categoria1[idx].img} alt="image2" className="imageCard" />
                                         <div className="infoCard">
                                             <h1>{categoria1[idx].nombre}</h1>
                                             <p className="title">{categoria1[idx].descripcion}</p>
@@ -72,7 +72,7 @@ const Catalog = () => {
                             {
                                 categoria3?.map((_, idx) => (
                                     <div key={idx} className="bodyCard" >
-                                        <img src={categoria3[idx].img} alt="image" className="imageCard" />
+                                        <img src={categoria3[idx].img} alt="image2" className="imageCard" />
                                         <div className="infoCard">
                                             <h1>{categoria3[idx].nombre}</h1>
                                             <p className="title">{categoria3[idx].descripcion}</p>
@@ -91,7 +91,7 @@ const Catalog = () => {
                             {
                                 categoria2?.map((_, idx) => (
                                     <div key={idx} className="bodyCard" >
-                                        <img src={categoria2[idx].img} alt="image" className="imageCard" />
+                                        <img src={categoria2[idx].img} alt="image3" className="imageCard" />
                                         <div className="infoCard">
                                             <h1>{categoria2[idx].nombre}</h1>
                                             <p className="title">{categoria2[idx].descripcion}</p>
