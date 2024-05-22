@@ -47,3 +47,17 @@
         font-size: 100%;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .titleContact {
+        font-size: 60px;
+    }
+
+    .carta h1 {
+        font-size: 20px;
+    }
+
+    .carta p {
+        font-size: 80%;
+    }
+}

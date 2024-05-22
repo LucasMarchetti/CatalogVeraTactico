@@ -9,12 +9,14 @@
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
+    resize: both;
 }
 
 .catalog {
     display: grid;
     width: 80%;
     height: 100%;
+    min-width: 420px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -83,12 +85,13 @@
 /*    Productos / CARDS    */
 
 .conteinerProducts {
-    height: 2500px;
+    height: 2750px;
 }
 
 .tituloCategorias1 {
     display: flex;
     justify-content: center;
+    text-align: center;
     font-family: "Keania One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -99,7 +102,8 @@
 .tituloCategorias2 {
     display: flex;
     justify-content: center;
-    margin-top: 14%;
+    text-align: center;
+    margin-top: 20%;
     font-family: "Keania One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -122,9 +126,9 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: repeat(3, minmax(250px, 400px));
-    grid-template-rows: repeat(1, 1fr);
-    gap: 3%;
+    justify-items: center;
+    grid-template-columns: repeat(3, minmax(150px, 250px));
+    gap: 12%;
 }
 
 .bodyCard {
@@ -133,7 +137,7 @@
     justify-content: center;
     height: 250px;
     width: 400px;
-    gap: 2em;
+    gap: 1em;
     border: solid 1px rgba(128, 128, 128, 0.61);
     background-color: rgba(230, 230, 230, 0.671);
     border-radius: 10px;
@@ -172,7 +176,7 @@
 
 @media only screen and (max-width: 1665px) {
     .conteinerProducts {
-        height: 2100px;
+        height: 2250px;
     }
 
     .contenidoAboutUs {
@@ -183,7 +187,6 @@
         height: 200px;
         width: 350px;
         gap: 1em;
-        margin-left: 5%;
     }
 
     .infoCard h1 {
@@ -191,7 +194,7 @@
     }
 
     .gridCards {
-        gap: 3%;
+        gap: 10%;
     }
 
     .title {
@@ -213,7 +216,8 @@
     }
 
     .gridCards {
-        grid-template-columns: repeat(1, minmax(200px, 600px));
+        grid-template-columns: repeat(1, minmax(150px, 250px));
+        gap: 3%;
     }
 
     .tituloCategorias2 {
@@ -228,7 +232,6 @@
         height: 300px;
         width: 600px;
         gap: 1em;
-        margin-left: 4%;
     }
 
     .title {
@@ -241,6 +244,12 @@
         border-radius: 10px;
         background-color: rgba(212, 212, 212, 0.925) ;
         font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1565px) {
+    .tituloCategorias2 {
+        margin-top: 55%;
     }
 }
 
@@ -278,19 +287,21 @@
     .frase {
         font-size: 25px;
     }
-    .bodyCard {
-        margin-left: 1.5%;
-    }
     .tituloCategorias2 {
-        margin-top: 82%;
+        margin-top: 75%;
     }
     .tituloCategorias3{
-        font-size: 30px;
+        margin-top: 15%;
+        font-size: 35px;
     }
 }
-@media only screen and (max-width: 880px) {
-    .bodyCard {
-        margin-left: 0.5%;
+
+@media only screen and (max-width: 900px) {
+    .conteinerProducts {
+        height: 6470px;
+    }
+    .tituloCategorias2 {
+        margin-top: 78%;
     }
 }
 
@@ -298,10 +309,54 @@
     .contenidoAboutUs {
         font-size: 25px;
     }
+
+    .tituloCategorias3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .conteinerProducts {
+        height: 5000px;
+    }
+
+    .gridCards {
+        gap: 3%;
+    }
+
+    .infoCard h1 {
+        font-size: 20px;
+    }
+    
+    .title {
+        font-size: 18px;
+    }
+    
+    .price {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .bodyCard {
+        justify-content: center ;
+        height: 220px;
+        width: 400px;
+        gap: 0.5em;
+    }
 }
 
 @media only screen and (max-width: 670px) {
     .contenidoAboutUs {
         font-size: 22px;
+    }
+
+    .conteinerProducts {
+        height: 4900px;
+    }
+    .tituloCategorias3 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .tituloCategorias2 {
+        margin-top: 92%;
     }
 }
