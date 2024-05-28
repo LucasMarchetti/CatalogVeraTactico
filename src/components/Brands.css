@@ -93,3 +93,21 @@
         height: 90px;
     }
 }
+
+@media only screen and (max-width: 650px) {
+    .camel {
+        height: 40px;
+    }
+    
+    .cater {
+        height: 60px;
+    }
+    
+    .boer {
+        height: 70px;
+    }
+    
+    .stan {
+        height: 60px;
+    }
+}
