@@ -7,7 +7,7 @@
     z-index: 4;
     transition: 0.3s ease-in;
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.938);
+    background-color: rgba(255, 255, 255, 0.952);
 }
 
 .header .navbar {
@@ -73,7 +73,7 @@
 
 .nav-menu.active {
     position: fixed;
-    top: 100px;
+    top: 120px;
     display: flex;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.952);
@@ -84,8 +84,6 @@
     transition: 0.3s;
     padding: 0;
 }
-
-/* Media Queries */
 
 @media only screen and (max-width: 1405px) {
     .logoTitle h1 {
@@ -101,7 +99,7 @@
 
 @media only screen and (max-width: 1230px) {
     .navbar .nav-menu a {
-        font-size: 20px;
+        font-size: 22px;
     }
 }
 
@@ -123,6 +121,14 @@
         height: 2em;
         width: 2em;
     }
+
+    .navbar .nav-menu {
+        padding-top: 20px;
+    }
+    
+    .navbar .nav-menu a {
+        font-size: 24px;
+    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -139,4 +145,9 @@
         height: 1.3em;
         width: 1.3em;
     }
+
+    /* .header {
+        box-shadow: 1px 3px 5px 5px  rgba(0, 0, 0, 0.253);
+    } */
+
 }

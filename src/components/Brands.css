@@ -20,7 +20,7 @@
 .items {
     display: flex;
     justify-content: center;
-    width: 20%;
+    width: 18%;
     align-items: center;
 }
 
@@ -53,48 +53,49 @@
     }
 
     .camel {
-        height: 90px;
-    }
-    
-    .cater {
-        height: 100px;
-    }
-    
-    .boer {
-        height: 120px;
-    }
-    
-    .stan {
-        height: 100px;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-
-    .border {
-        height: 150px;
-        max-width: 80%;
-        margin: 15px auto 0 auto;
-    }
-
-    .camel {
-        height: 70px;
-    }
-    
-    .cater {
         height: 80px;
     }
     
+    .cater {
+        height: 90px;
+    }
+    
     .boer {
-        height: 100px;
+        height: 110px;
     }
     
     .stan {
         height: 90px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .conteiner {
+        gap: 14px;
+    }
+
+    .camel {
+        height: 60px;
+    }
+    
+    .cater {
+        height: 70px;
+    }
+    
+    .boer {
+        height: 90px;
+    }
+    
+    .stan {
+        height: 80px;
     }
 }
 
 @media only screen and (max-width: 650px) {
+    .conteiner {
+        gap: 10px;
+    }
+
     .camel {
         height: 40px;
     }
@@ -110,4 +111,27 @@
     .stan {
         height: 60px;
     }
+}
+
+@media only screen and (max-width: 500px) {
+    .conteiner {
+        gap: 8px;
+    }
+
+    .camel {
+        height: 30px;
+    }
+    
+    .cater {
+        height: 50px;
+    }
+    
+    .boer {
+        height: 65px;
+    }
+    
+    .stan {
+        height: 55px;
+    }
+
 }

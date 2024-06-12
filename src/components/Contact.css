@@ -39,7 +39,13 @@
 
 .carta p {
     margin: 5%;
-    font-size: 130%;
+    font-size: 170%;
+}
+
+@media only screen and (max-width: 1240px) {
+    .carta p {
+        font-size: 130%;
+    }
 }
 
 @media only screen and (max-width: 950px) {

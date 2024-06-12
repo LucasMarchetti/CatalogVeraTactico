@@ -3,7 +3,8 @@
 import "./Catalog.css"
 
 // Data
-import products from "../dataCatalog.json"
+import products from "../dataCatalog.json";
+
 
 const Catalog = () => {
     
@@ -53,7 +54,7 @@ const Catalog = () => {
                             {   
                                 categoria1?.map((_, idx) => (
                                     <div key={idx} className="bodyCard" >
-                                        <img src={categoria1[idx].img} alt="image2" className="imageCard" />
+                                        <img src={require(`${categoria1[idx].img}`)} alt={categoria1[idx].nombre} className="imageCard" />
                                         <div className="infoCard">
                                             <h1>{categoria1[idx].nombre}</h1>
                                             <p className="title">{categoria1[idx].descripcion}</p>
@@ -66,13 +67,13 @@ const Catalog = () => {
                     </div>
                     <div>
                         <h1 className="tituloCategorias2" >
-                            Equipamiento para airsoft
+                            Equipamiento para Airsoft
                         </h1>
                         <div className="gridCards">
                             {
                                 categoria3?.map((_, idx) => (
                                     <div key={idx} className="bodyCard" >
-                                        <img src={categoria3[idx].img} alt="image2" className="imageCard" />
+                                        <img src={require(`${categoria3[idx].img}`)} alt={categoria3[idx].nombre} className="imageCard" />
                                         <div className="infoCard">
                                             <h1>{categoria3[idx].nombre}</h1>
                                             <p className="title">{categoria3[idx].descripcion}</p>
@@ -91,7 +92,7 @@ const Catalog = () => {
                             {
                                 categoria2?.map((_, idx) => (
                                     <div key={idx} className="bodyCard" >
-                                        <img src={categoria2[idx].img} alt="image3" className="imageCard" />
+                                        <img src={require(`${categoria2[idx].img}`)} alt={categoria2[idx].nombre} className="imageCard" />
                                         <div className="infoCard">
                                             <h1>{categoria2[idx].nombre}</h1>
                                             <p className="title">{categoria2[idx].descripcion}</p>
