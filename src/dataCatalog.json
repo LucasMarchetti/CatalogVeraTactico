@@ -113,17 +113,17 @@
         "categorias" : "2"
     },
     {
-        "nombre": "Polímero Táctico",
-        "img": "./images/Products/polimeros.jpeg",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "precio": 2345,
-        "categorias" : "3"
-    },
-    {
         "nombre": "Airsoft (Hidrogel)",
         "img": "./images/Products/airsoft.jpeg",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "precio": 1122,
+        "categorias" : "3"
+    },
+    {
+        "nombre": "Polímero Táctico",
+        "img": "./images/Products/Polimeros.jpeg",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "precio": 2345,
         "categorias" : "3"
     }
 ]
