@@ -7,6 +7,7 @@ const Catalog = () => {
         categoria1: [],
         categoria2: [],
         categoria3: [],
+        categoria4: [],
     });
 
     useEffect(() => {
@@ -25,6 +26,9 @@ const Catalog = () => {
     }, []);
 
     const renderCategory = (category) => {
+        console.log(categories[category], "categories[category]")
+        console.log(categories, "categories[category]")
+
         return categories[category].map((product) => (
             <div key={product.id} className="bodyCard">
                 <img src={require(`${product.img}`)} alt={product.nombre} className="imageCard" />

@@ -99,20 +99,6 @@
         "categorias" : "2"
     },
     {
-        "nombre": "Campera Columbia",
-        "img": "./images/Products/camperaColumbia.jpeg",
-        "descripcion": "Impermeable y abrigado.",
-        "precio": 30000,
-        "categorias" : "4"
-    },
-    {
-        "nombre": "Pantalon Táctico",
-        "img": "./images/Products/pantalonTactico.jpeg",
-        "descripcion": "Impermeable y abrigado.",
-        "precio": 30000,
-        "categorias" : "4"
-    },
-    {
         "nombre": "Airsoft (Hidrogel)",
         "img": "./images/Products/airsoft.jpeg",
         "descripcion": "Plástico duro. Batería. Balines de Hidrogel. Varios modelos.",
@@ -139,6 +125,20 @@
         "descripcion": "Polímeros grado militar *BOER*.",
         "precio": 18000,
         "categorias" : "3"
+    },
+    {
+        "nombre": "Campera Columbia",
+        "img": "./images/Products/camperaColumbia.jpeg",
+        "descripcion": "Impermeable y abrigado.",
+        "precio": 30000,
+        "categorias" : "4"
+    },
+    {
+        "nombre": "Pantalon Táctico",
+        "img": "./images/Products/pantalonTactico.jpeg",
+        "descripcion": "Impermeable y abrigado.",
+        "precio": 30000,
+        "categorias" : "4"
     },
     {
         "nombre": "Pantalon Policial (Azul)",
