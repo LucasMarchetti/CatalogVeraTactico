@@ -12,16 +12,16 @@ const Contact = () => {
             <div className="cardsContact">
                 <div className="carta">
                     <h1>Teléfono</h1>
-                    <p>+54-3834-549875</p>
+                    <p>+54-3834-984529</p>
                 </div>
                 <div className="carta">
                     <h1>Email</h1>
-                    <p>veratactico@gmail.com</p>
+                    <p>romeocesarvera@gmail.com</p>
                 </div>
                 <div className="carta">
                     <h1>Ubicación</h1>
                     <p>San Fernando del Valle de Catamarca, Catamarca</p>
-                    <p>Av. Los Milagros 2345</p>
+                    <p>Esquina Vicario Segura y La Rioja</p>
                 </div>
             </div>
         </div>

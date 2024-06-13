@@ -14,6 +14,7 @@ const Catalog = () => {
             categoria1: [],
             categoria2: [],
             categoria3: [],
+            categoria4: [],
         };
 
         products.forEach((product) => {
@@ -43,7 +44,7 @@ const Catalog = () => {
                 <div className="conteinerAboutUs">
                     <h1 className="titleAboutUs">Acerca de Nosotros</h1>
                     <div className="contenidoAboutUs">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Somos VERA TÁCTICO, una empresa dedicada a la venta de artículos al aire libre, equipamiento de airsoft, indumentarias de fuerzas de seguridad y estamos ubicados en Catamarca, San Fernando del Valle de Catamarca. Ventas al por mayor y menor. Contamos con envíos a todo el país. 
                     </div>
                 </div>
                 <span id="catalog" style={{ marginBottom: "10%" }} />
@@ -65,6 +66,10 @@ const Catalog = () => {
                     <div>
                         <h1 className="tituloCategorias3">Accesorios para actividades al aire libre</h1>
                         <div className="gridCards">{renderCategory("categoria2")}</div>
+                    </div>
+                    <div>
+                        <h1 className="tituloCategorias3">Uniformes</h1>
+                        <div className="gridCards">{renderCategory("categoria4")}</div>
                     </div>
                 </div>
             </div>

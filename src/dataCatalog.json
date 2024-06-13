@@ -3,127 +3,197 @@
     {
         "nombre" : "Guantes Tácticos",
         "img": "./images/Products/guantes.jpeg",
-        "descripcion" : "Lorem ipsum dolor sit amet, cons adipiscing elit.",
-        "precio" : 1234,
+        "descripcion" : "",
+        "precio" : 20000,
         "categorias" : "1"
     },
     {
         "nombre": "Pechera Cuadrada",
         "img": "./images/Products/pecheraCuadrada.jpeg",
-        "descripcion": "Lorem ipsum dolor sit amet, cons adipiscing elit.",
-        "precio": 6123,
+        "descripcion": "Lona reforzada. Colores: Beige, Negro y Camuflado",
+        "precio": 15000,
         "categorias" : "1"
     },
     {
         "nombre": "Borcegos",
         "img": "./images/Products/borcegos.jpeg",
-        "descripcion": "Lorem ipsum dolor sit amet, cons adipiscing elit.",
-        "precio": 1212,
+        "descripcion": "Talle: 40 - 44. Variedad de colores.",
+        "precio": 35000,
         "categorias" : "1"
     },
     {
         "nombre": "Cinturón",
         "img": "./images/Products/Cinturon.jpeg",
-        "descripcion": "Lorem ipsum dolor sit amet, cour adipiscing elit.",
-        "precio": 3434,
+        "descripcion": "Marca Boer. Hebilla polímero.",
+        "precio": 18000,
         "categorias" : "1"
     },
     {
         "nombre": "Riñonera Táctica",
         "img": "./images/Products/RiñoneraTactica.jpeg",
-        "descripcion": "Lorem ipsum dolor sit amet, cour adipiscing elit.",
-        "precio": 98984,
+        "descripcion": "",
+        "precio": 15000,
         "categorias" : "1"
     },
     {
         "nombre": "Sudadera Táctica",
         "img": "./images/Products/Sudadera.jpeg",
-        "descripcion": "Lorem ipsum dolor sit amet, cour adipiscing elit.",
-        "precio": 6565,
+        "descripcion": "Nylon y Algodón. 1,70mts x 0,70mts.",
+        "precio": 15000,
         "categorias" : "1"
     },
     {
         "nombre": "Muslera tactica",
         "img": "./images/Products/musleraTactica.jpeg",
-        "descripcion": "Lorem ipsum dolor sit amet, cour adipiscing elit.",
-        "precio": 2211,
+        "descripcion": "Lona reforzada.",
+        "precio": 12000,
         "categorias" : "1"
     },
     {
         "nombre": "Pechera Cruzada",
         "img": "./images/Products/pecheraCruzada.jpeg",
-        "descripcion": "Lorem ipsum dolor sit amet, ctur adipiscing elit.",
-        "precio": 6565,
+        "descripcion": "Lona reforzada.",
+        "precio": 12000,
         "categorias" : "1"
     },
     {
         "nombre": "Sombrero Australiano",
         "img": "./images/Products/sombreros.jpeg",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "precio": 5454,
+        "descripcion": "Lona reforzada. Fresca, durable y práctico.",
+        "precio": 8000,
         "categorias" : "2"
     },
     {
         "nombre": "Riñoneras",
         "img": "./images/Products/riñonera.jpeg",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "precio": 1231,
+        "descripcion": "Lona reforzada. Variedad de colores.",
+        "precio": 8000,
         "categorias" : "2"
     },
     {
         "nombre": "Bolsos",
         "img": "./images/Products/bolsos.jpeg",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "precio": 4433,
+        "descripcion": "Lona reforzada. Variedad de colores y diseños.",
+        "precio": 10000,
         "categorias" : "2"
     },
     {
         "nombre": "Bolsos Materos",
         "img": "./images/Products/bolsoMatero.jpeg",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "precio": 3434,
+        "descripcion": "Lona reforzada. Varios compartimientos.",
+        "precio": 15000,
         "categorias" : "2"
     },
     {
         "nombre": "Linternas",
         "img": "./images/Products/linterna.jpeg",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "precio": 2112,
+        "descripcion": "Recargables. Varias posiciones de luces.",
+        "precio": 10000,
         "categorias" : "2"
     },
     {
         "nombre": "Mochila Táctica",
         "img": "./images/Products/mochila.jpeg",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "precio": 6565,
+        "descripcion": "Lona reforzada. Impermeable. Doble cierres. Acolchonada. Reguladores a ambos lados.",
+        "precio": 30000,
         "categorias" : "2"
     },
     {
         "nombre": "Campera Columbia",
         "img": "./images/Products/camperaColumbia.jpeg",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "precio": 6565,
-        "categorias" : "2"
+        "descripcion": "Impermeable y abrigado.",
+        "precio": 30000,
+        "categorias" : "4"
     },
     {
         "nombre": "Pantalon Táctico",
         "img": "./images/Products/pantalonTactico.jpeg",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "precio": 6565,
-        "categorias" : "2"
+        "descripcion": "Impermeable y abrigado.",
+        "precio": 30000,
+        "categorias" : "4"
     },
     {
         "nombre": "Airsoft (Hidrogel)",
         "img": "./images/Products/airsoft.jpeg",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "precio": 1122,
+        "descripcion": "Plástico duro. Batería. Balines de Hidrogel. Varios modelos.",
+        "precio": 60000,
         "categorias" : "3"
     },
     {
-        "nombre": "Polímero Táctico",
+        "nombre": "Set Polímeros N2",
         "img": "./images/Products/Polimeros.jpeg",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "precio": 2345,
+        "descripcion": "Polímeros grado militar *BOER*. Porta esposas + Pistolera + Cagador Doble",
+        "precio": 45000,
         "categorias" : "3"
+    },
+    {
+        "nombre": "Pistolera y Cargador Doble",
+        "img": "./images/Products/pistoleraCargador.jpeg",
+        "descripcion": "Polímeros grado militar *BOER*.",
+        "precio": 32000,
+        "categorias" : "3"
+    },
+    {
+        "nombre": "Pistolera",
+        "img": "./images/Products/pistolera.jpeg",
+        "descripcion": "Polímeros grado militar *BOER*.",
+        "precio": 18000,
+        "categorias" : "3"
+    },
+    {
+        "nombre": "Pantalon Policial (Azul)",
+        "img": "./images/Products/uniformePolicia4.jpeg",
+        "descripcion": "Tela Ristop. Todos los talles.",
+        "precio": 35000,
+        "categorias" : "4"
+    },
+    {
+        "nombre": "Uniforme Policial",
+        "img": "./images/Products/uniformeCOmpleto.jpeg",
+        "descripcion": "Tela Ristop. Todos los talles.",
+        "precio": 70000,
+        "categorias" : "4"
+    },
+    {
+        "nombre": "Chaquetilla Policial (Azul)",
+        "img": "./images/Products/uniformePolicia3.jpeg",
+        "descripcion": "Tela Ristop. Todos los talles.",
+        "precio": 35000,
+        "categorias" : "4"
+    },
+    {
+        "nombre": "Uniforme Ejercito",
+        "img": "./images/Products/uniformeEjercito.jpeg",
+        "descripcion": "Tela Ristop. Todos los talles.",
+        "precio": 80000,
+        "categorias" : "4"
+    },
+    {
+        "nombre": "Pantalon Policial (Negro)",
+        "img": "./images/Products/uniformePolicia2.jpeg",
+        "descripcion": "Tela Ristop. Todos los talles.",
+        "precio": 35000,
+        "categorias" : "4"
+    },
+    {
+        "nombre": "Chaquetilla Policial (Negro)",
+        "img": "./images/Products/uniformePolicia.jpeg",
+        "descripcion": "Tela Ristop. Todos los talles.",
+        "precio": 35000,
+        "categorias" : "4"
+    },
+    {
+        "nombre": "Bajo Chaleco",
+        "img": "./images/Products/bajoChaleco.jpeg",
+        "descripcion": "Tela Ristop. Todos los talles.",
+        "precio": 30000,
+        "categorias" : "4"
+    },
+    {
+        "nombre": "Uniforme Gendarmeria",
+        "img": "./images/Products/uniformeGendarmeria.jpeg",
+        "descripcion": "Tela Ristop. Todos los talles.",
+        "precio": 80000,
+        "categorias" : "4"
     }
 ]

@@ -42,7 +42,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 40px;
+    padding: 60px;
     font-family: "Keania One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -56,7 +56,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .tituloCatalogo {
@@ -85,7 +85,7 @@
 /*    Productos / CARDS    */
 
 .conteinerProducts {
-    height: 2750px;
+    height: 4250px;
 }
 
 .tituloCategorias1 {
@@ -176,7 +176,7 @@
 
 @media only screen and (max-width: 1665px) {
     .conteinerProducts {
-        height: 2250px;
+        height: 3350px;
     }
 
     .contenidoAboutUs {
@@ -212,7 +212,7 @@
 
 @media only screen and (max-width: 1565px)  {
     .conteinerProducts {
-        height: 7050px;
+        height: 10950px;
     }
 
     .gridCards {
@@ -225,7 +225,7 @@
     }
 
     .tituloCategorias3 {
-        margin-top: 10%;
+        margin-top: 25%;
     }
 
     .bodyCard {
@@ -258,7 +258,11 @@
         font-size: 28px;
     }
     .conteinerProducts {
-        height: 6950px;
+        height: 10550px;
+    }
+    
+    .tituloCategorias3 {
+        margin-top: 45%;
     }
     .tituloCategorias2 {
         margin-top: 65%;
