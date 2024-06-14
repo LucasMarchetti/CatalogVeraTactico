@@ -168,7 +168,6 @@
         font-size: 20px;
     }
 
-
     .title {
         font-size: 16px;
     }
@@ -297,5 +296,44 @@
 
     .tituloCategorias {
         font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .catalog {
+        width: 55%;
+        min-width: 360px;
+    }
+
+    .contenidoAboutUs {
+        padding: 40px;
+    }
+
+    .frase {
+        font-size: 20px; 
+    }
+
+    .tituloCategorias {
+        font-size: 40px;
+    }
+
+    .gridCards {
+        grid-template-columns: repeat(1, minmax(200px, 300px));
+        gap: 50px;
+    }
+
+    .conteinerGroup {
+        margin: 10px;
+    }
+
+    .bodyCard {
+        justify-content: center ;
+        height: 200px;
+        width: 300px;
+        gap: 0.3em;
+    }
+
+    .title {
+        font-size: 14px;
     }
 }
