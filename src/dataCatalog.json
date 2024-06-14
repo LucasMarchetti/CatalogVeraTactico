@@ -4,196 +4,245 @@
         "nombre" : "Guantes Tácticos",
         "img": "./images/Products/guantes.jpeg",
         "descripcion" : "",
-        "precio" : 20000,
+        "precio" : "20.000",
         "categorias" : "1"
     },
     {
         "nombre": "Pechera Cuadrada",
         "img": "./images/Products/pecheraCuadrada.jpeg",
         "descripcion": "Lona reforzada. Colores: Beige, Negro y Camuflado",
-        "precio": 15000,
+        "precio": "15.000",
         "categorias" : "1"
     },
     {
         "nombre": "Borcegos",
         "img": "./images/Products/borcegos.jpeg",
         "descripcion": "Talle: 40 - 44. Variedad de colores.",
-        "precio": 35000,
+        "precio": "35.000",
         "categorias" : "1"
     },
     {
         "nombre": "Cinturón",
         "img": "./images/Products/Cinturon.jpeg",
         "descripcion": "Marca Boer. Hebilla polímero.",
-        "precio": 18000,
+        "precio": "18.000",
         "categorias" : "1"
     },
     {
         "nombre": "Riñonera Táctica",
         "img": "./images/Products/RiñoneraTactica.jpeg",
         "descripcion": "",
-        "precio": 15000,
+        "precio": "15.000",
         "categorias" : "1"
     },
     {
         "nombre": "Sudadera Táctica",
         "img": "./images/Products/Sudadera.jpeg",
         "descripcion": "Nylon y Algodón. 1,70mts x 0,70mts.",
-        "precio": 15000,
+        "precio": "15.000",
         "categorias" : "1"
     },
     {
         "nombre": "Muslera tactica",
         "img": "./images/Products/musleraTactica.jpeg",
         "descripcion": "Lona reforzada.",
-        "precio": 12000,
+        "precio": "12.000",
         "categorias" : "1"
     },
     {
         "nombre": "Pechera Cruzada",
         "img": "./images/Products/pecheraCruzada.jpeg",
         "descripcion": "Lona reforzada.",
-        "precio": 12000,
+        "precio": "12.000",
         "categorias" : "1"
     },
     {
         "nombre": "Sombrero Australiano",
         "img": "./images/Products/sombreros.jpeg",
         "descripcion": "Lona reforzada. Fresca, durable y práctico.",
-        "precio": 8000,
+        "precio": "8.000",
         "categorias" : "2"
     },
     {
         "nombre": "Riñoneras",
         "img": "./images/Products/riñonera.jpeg",
         "descripcion": "Lona reforzada. Variedad de colores.",
-        "precio": 8000,
+        "precio": "8.000",
         "categorias" : "2"
     },
     {
         "nombre": "Bolsos",
         "img": "./images/Products/bolsos.jpeg",
         "descripcion": "Lona reforzada. Variedad de colores y diseños.",
-        "precio": 10000,
+        "precio": "10.000",
         "categorias" : "2"
     },
     {
         "nombre": "Bolsos Materos",
         "img": "./images/Products/bolsoMatero.jpeg",
         "descripcion": "Lona reforzada. Varios compartimientos.",
-        "precio": 15000,
+        "precio": "15.000",
         "categorias" : "2"
     },
     {
         "nombre": "Linternas",
         "img": "./images/Products/linterna.jpeg",
         "descripcion": "Recargables. Varias posiciones de luces.",
-        "precio": 10000,
+        "precio": "10.000",
         "categorias" : "2"
     },
     {
         "nombre": "Mochila Táctica",
         "img": "./images/Products/mochila.jpeg",
         "descripcion": "Lona reforzada. Impermeable. Doble cierres. Acolchonada. Reguladores a ambos lados.",
-        "precio": 30000,
+        "precio": "30.000",
         "categorias" : "2"
     },
     {
         "nombre": "Airsoft (Hidrogel)",
         "img": "./images/Products/airsoft.jpeg",
         "descripcion": "Plástico duro. Batería. Balines de Hidrogel. Varios modelos.",
-        "precio": 60000,
+        "precio": "60.000",
         "categorias" : "3"
     },
     {
         "nombre": "Set Polímeros N2",
         "img": "./images/Products/Polimeros.jpeg",
         "descripcion": "Polímeros grado militar *BOER*. Porta esposas + Pistolera + Cagador Doble",
-        "precio": 45000,
+        "precio": "45.000",
         "categorias" : "3"
     },
     {
         "nombre": "Pistolera y Cargador Doble",
         "img": "./images/Products/pistoleraCargador.jpeg",
         "descripcion": "Polímeros grado militar *BOER*.",
-        "precio": 32000,
+        "precio": "32.000",
         "categorias" : "3"
     },
     {
         "nombre": "Pistolera",
         "img": "./images/Products/pistolera.jpeg",
         "descripcion": "Polímeros grado militar *BOER*.",
-        "precio": 18000,
+        "precio": "18.000",
         "categorias" : "3"
     },
     {
         "nombre": "Campera Columbia",
         "img": "./images/Products/camperaColumbia.jpeg",
         "descripcion": "Impermeable y abrigado.",
-        "precio": 30000,
+        "precio": "30.000",
         "categorias" : "4"
     },
     {
         "nombre": "Pantalon Táctico",
         "img": "./images/Products/pantalonTactico.jpeg",
         "descripcion": "Impermeable y abrigado.",
-        "precio": 30000,
+        "precio": "30.000",
         "categorias" : "4"
     },
     {
         "nombre": "Pantalon Policial (Azul)",
         "img": "./images/Products/uniformePolicia4.jpeg",
         "descripcion": "Tela Ristop. Todos los talles.",
-        "precio": 35000,
+        "precio": "35.000",
         "categorias" : "4"
     },
     {
         "nombre": "Uniforme Policial",
         "img": "./images/Products/uniformeCOmpleto.jpeg",
         "descripcion": "Tela Ristop. Todos los talles.",
-        "precio": 70000,
+        "precio": "70.000",
         "categorias" : "4"
     },
     {
         "nombre": "Chaquetilla Policial (Azul)",
         "img": "./images/Products/uniformePolicia3.jpeg",
         "descripcion": "Tela Ristop. Todos los talles.",
-        "precio": 35000,
+        "precio": "35.000",
         "categorias" : "4"
     },
     {
         "nombre": "Uniforme Ejercito",
         "img": "./images/Products/uniformeEjercito.jpeg",
         "descripcion": "Tela Ristop. Todos los talles.",
-        "precio": 80000,
+        "precio": "80.000",
         "categorias" : "4"
     },
     {
         "nombre": "Pantalon Policial (Negro)",
         "img": "./images/Products/uniformePolicia2.jpeg",
         "descripcion": "Tela Ristop. Todos los talles.",
-        "precio": 35000,
+        "precio": "35.000",
         "categorias" : "4"
     },
     {
         "nombre": "Chaquetilla Policial (Negro)",
         "img": "./images/Products/uniformePolicia.jpeg",
         "descripcion": "Tela Ristop. Todos los talles.",
-        "precio": 35000,
+        "precio": "35.000",
         "categorias" : "4"
     },
     {
         "nombre": "Bajo Chaleco",
         "img": "./images/Products/bajoChaleco.jpeg",
         "descripcion": "Tela Ristop. Todos los talles.",
-        "precio": 30000,
+        "precio": "30.000",
         "categorias" : "4"
     },
     {
         "nombre": "Uniforme Gendarmeria",
         "img": "./images/Products/uniformeGendarmeria.jpeg",
         "descripcion": "Tela Ristop. Todos los talles.",
-        "precio": 80000,
+        "precio": "80.000",
         "categorias" : "4"
+    },
+    {
+        "nombre": "Cuchillo Táctico",
+        "img": "./images/Products/cuchilloTactico.jpeg",
+        "descripcion": "",
+        "precio": "7.000",
+        "categorias" : "5"
+    },
+    {
+        "nombre": "Cuchillo Táctico Supervivencia",
+        "img": "./images/Products/cuchilloTacticoSuper.jpeg",
+        "descripcion": "",
+        "precio": "26.000",
+        "categorias" : "5"
+    },
+    {
+        "nombre": "Mini Cuchillo Neck",
+        "img": "./images/Products/miniCuchilloNeck.jpeg",
+        "descripcion": "",
+        "precio": "12.000",
+        "categorias" : "5"
+    },
+    {
+        "nombre": "Navaja Multiusos",
+        "img": "./images/Products/navajaMultiusos.jpeg",
+        "descripcion": "",
+        "precio": "10.000",
+        "categorias" : "5"
+    },
+    {
+        "nombre": "Navaja Sanjia Retractil",
+        "img": "./images/Products/navajaSanjiaRetractil.jpeg",
+        "descripcion": "",
+        "precio": "12.000",
+        "categorias" : "5"
+    },
+    {
+        "nombre": "Navaja Táctica Browning",
+        "img": "./images/Products/navajaTacticaBrowning.jpeg",
+        "descripcion": "",
+        "precio": "26.000",
+        "categorias" : "5"
+    },
+    {
+        "nombre": "Shuriken 4 puntas",
+        "img": "./images/Products/shuriken.jpeg",
+        "descripcion": "",
+        "precio": "7.000",
+        "categorias" : "5"
     }
 ]

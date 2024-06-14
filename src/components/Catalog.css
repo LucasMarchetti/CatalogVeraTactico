@@ -1,4 +1,3 @@
-
 .container {
     display: flex;
     position: relative;
@@ -15,7 +14,6 @@
 .catalog {
     display: grid;
     width: 80%;
-    height: 100%;
     min-width: 420px;
     background-color: rgb(255, 255, 255);
 }
@@ -29,12 +27,13 @@
 .titleAboutUs {
     display: flex;
     justify-content: center;
+    text-align: center;
     margin-top: 40px;
     padding-top: 30px;
     font-family: "Keania One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
+    font-size: 70px;
     text-decoration: 3px underline rgb(36, 36, 36);
 }
 
@@ -51,25 +50,8 @@
 
 /* Catalogo */
 
-.conteiner-titulo {
+.conteiner-titulo, .conteiner-frase {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 5%;
-}
-
-.tituloCatalogo {
-    font-family: "Keania One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 60px;
-    text-decoration: 3px underline rgb(36, 36, 36);
-}
-
-.conteiner-frase {
-    display: flex;
-    height: 100px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -79,47 +61,37 @@
     font-family: "Keania One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
+    font-size: 35px; 
 }
 
-/*    Productos / CARDS    */
+.tituloCatalogo {
+    font-family: "Keania One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    text-decoration: 3px underline rgb(36, 36, 36);
+}
+
+/* Productos / CARDS */
 
 .conteinerProducts {
-    height: 4250px;
+    height: 100%;
 }
 
-.tituloCategorias1 {
-    display: flex;
-    justify-content: center;
+.conteinerGroup {
+    margin: 30px;
     text-align: center;
-    font-family: "Keania One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 40px;
-    text-decoration: underline rgb(36, 36, 36);
+    padding-top: 15px;
 }
 
-.tituloCategorias2 {
+.tituloCategorias {
     display: flex;
     justify-content: center;
-    text-align: center;
-    margin-top: 20%;
     font-family: "Keania One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
-    text-decoration: underline rgb(36, 36, 36);
-}
-
-.tituloCategorias3 {
-    display: flex;
-    justify-content: center;
-    margin-top: 10%;
-    font-family: "Keania One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 40px;
-    text-decoration: underline rgb(36, 36, 36);
+    font-size: 60px;
+    text-decoration: underline 2px rgb(36, 36, 36);
 }
 
 .gridCards {
@@ -127,8 +99,8 @@
     align-items: center;
     justify-content: center;
     justify-items: center;
-    grid-template-columns: repeat(3, minmax(150px, 250px));
-    gap: 12%;
+    grid-template-columns: repeat(3, minmax(250px, 400px));
+    gap: 20px;
 }
 
 .bodyCard {
@@ -142,6 +114,11 @@
     background-color: rgba(230, 230, 230, 0.671);
     border-radius: 10px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.479);
+}
+
+.bodyCard:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
 }
 
 .imageCard {
@@ -174,11 +151,9 @@
     font-size: 20px;
 }
 
-@media only screen and (max-width: 1665px) {
-    .conteinerProducts {
-        height: 3350px;
-    }
+/* Media Queries */
 
+@media only screen and (max-width: 1665px) {
     .contenidoAboutUs {
         font-size: 30px;
     }
@@ -193,9 +168,6 @@
         font-size: 20px;
     }
 
-    .gridCards {
-        gap: 10%;
-    }
 
     .title {
         font-size: 16px;
@@ -211,26 +183,14 @@
 }
 
 @media only screen and (max-width: 1565px)  {
-    .conteinerProducts {
-        height: 10950px;
-    }
-
     .gridCards {
-        grid-template-columns: repeat(1, minmax(150px, 250px));
-        gap: 3%;
-    }
-
-    .tituloCategorias2 {
-        margin-top: 48%;
-    }
-
-    .tituloCategorias3 {
-        margin-top: 25%;
+        grid-template-columns: repeat(2, minmax(250px, 400px));
+        gap: 50px;
     }
 
     .bodyCard {
-        height: 300px;
-        width: 600px;
+        height: 250px;
+        width: 400px;
         gap: 1em;
     }
 
@@ -247,25 +207,20 @@
     }
 }
 
-@media only screen and (max-width: 1565px) {
-    .tituloCategorias2 {
-        margin-top: 55%;
-    }
-}
-
 @media only screen and (max-width: 1150px) {
     .contenidoAboutUs {
         font-size: 28px;
     }
-    .conteinerProducts {
-        height: 10550px;
+
+    .bodyCard {
+        height: 250px;
+        width: 400px;
+        gap: 0.7em;
     }
-    
-    .tituloCategorias3 {
-        margin-top: 45%;
-    }
-    .tituloCategorias2 {
-        margin-top: 65%;
+
+    .title {
+        margin: 2px;
+        font-size: 17px;
     }
 }
 
@@ -277,7 +232,7 @@
     }
 
     .titleAboutUs {
-        font-size: 35px;
+        font-size: 50px;
     }
 
     .contenidoAboutUs {
@@ -285,27 +240,22 @@
     }
 
     .tituloCatalogo {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .frase {
         font-size: 25px;
     }
-    .tituloCategorias2 {
-        margin-top: 75%;
-    }
-    .tituloCategorias3{
-        margin-top: 15%;
-        font-size: 35px;
-    }
-}
 
-@media only screen and (max-width: 900px) {
-    .conteinerProducts {
-        height: 6900px;
+    .gridCards {
+        grid-template-columns: repeat(1, minmax(250px, 500px));
+        gap: 50px;
     }
-    .tituloCategorias2 {
-        margin-top: 78%;
+
+    .bodyCard {
+        height: 250px;
+        width: 500px;
+        gap: 1em;
     }
 }
 
@@ -313,18 +263,17 @@
     .contenidoAboutUs {
         font-size: 25px;
     }
-
-    .tituloCategorias3 {
-        font-size: 30px;
-        text-align: center;
-    }
-
-    .conteinerProducts {
-        height: 5300px;
-    }
-
+    
     .gridCards {
-        gap: 3%;
+        grid-template-columns: repeat(1, minmax(220px, 400px));
+        gap: 50px;
+    }
+
+    .bodyCard {
+        justify-content: center ;
+        height: 220px;
+        width: 400px;
+        gap: 0.5em;
     }
 
     .infoCard h1 {
@@ -339,13 +288,6 @@
         padding: 5px;
         font-size: 20px;
     }
-
-    .bodyCard {
-        justify-content: center ;
-        height: 220px;
-        width: 400px;
-        gap: 0.5em;
-    }
 }
 
 @media only screen and (max-width: 670px) {
@@ -353,20 +295,7 @@
         font-size: 22px;
     }
 
-    .conteinerProducts {
-        height: 5300px;
-    }
-    .tituloCategorias3 {
-        font-size: 28px;
-        text-align: center;
-    }
-    .tituloCategorias2 {
-        margin-top: 92%;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .conteinerProducts {
-        height: 5200px;
+    .tituloCategorias {
+        font-size: 50px;
     }
 }

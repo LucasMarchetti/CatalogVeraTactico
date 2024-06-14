@@ -38,13 +38,24 @@
 }
 
 .carta p {
-    margin: 5%;
     font-size: 170%;
+}
+
+@media only screen and (max-width: 1430px) {
+    .carta p {
+        font-size: 150%;
+    }
 }
 
 @media only screen and (max-width: 1240px) {
     .carta p {
         font-size: 130%;
+    }
+}
+
+@media only screen and (max-width: 1090px) {
+    .carta p {
+        font-size: 115%;
     }
 }
 
@@ -54,7 +65,7 @@
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 820px) {
     .titleContact {
         font-size: 60px;
     }
@@ -65,6 +76,13 @@
 
     .carta p {
         font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 685px) {
+
+    .carta p {
+        font-size: 70%;
     }
 }
 
@@ -79,5 +97,12 @@
 
     .carta p {
         font-size: 60%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .carta p {
+        font-size: 50%;
     }
 }
